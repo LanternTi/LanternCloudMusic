@@ -1,0 +1,33 @@
+<script setup>
+
+</script>
+
+<template>
+  <div class="common-layout">
+    <el-container>
+      <el-header></el-header>
+      <el-container>
+        <el-aside width="20%"></el-aside>
+        <el-container>
+          <el-main></el-main>
+          <el-footer></el-footer>
+        </el-container>
+      </el-container>
+    </el-container>
+  </div>
+</template>
+
+<style>
+#app {
+  margin: 0 auto;
+  width: 75%;
+  border-radius: 5px;
+  border: 1px solid rgb(151, 151, 151);
+  min-width: 810px;
+}
+
+.el-header {
+  background-color: rgb(47, 210, 239);
+  border-radius: 5px 5px 0px 0px;
+}
+</style>

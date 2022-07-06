@@ -1,0 +1,2 @@
+# LanternCloudMusic
+一个仿网易云音乐的Vue3+Vite+ElementPlus的前端项目
