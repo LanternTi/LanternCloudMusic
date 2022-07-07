@@ -3,7 +3,6 @@
         <el-col :span="5"></el-col>
         <el-col :span="19"></el-col>
     </el-row>
-
 </template>
 
 <script setup>
