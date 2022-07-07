@@ -1,5 +1,6 @@
 <script setup>
 import Header from './components/Header.vue';
+import MySide from './components/MySide.vue';
 
 </script>
 
@@ -10,7 +11,9 @@ import Header from './components/Header.vue';
         <Header></Header>
       </el-header>
       <el-container>
-        <el-aside width="20%"></el-aside>
+        <el-aside width="20%">
+          <MySide></MySide>
+        </el-aside>
         <el-container>
           <el-main></el-main>
           <el-footer></el-footer>
