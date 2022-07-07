@@ -1,11 +1,14 @@
 <script setup>
+import Header from './components/Header.vue';
 
 </script>
 
 <template>
   <div class="common-layout">
     <el-container>
-      <el-header></el-header>
+      <el-header>
+        <Header></Header>
+      </el-header>
       <el-container>
         <el-aside width="20%"></el-aside>
         <el-container>
